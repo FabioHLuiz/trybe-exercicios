@@ -5,6 +5,7 @@
     <title>HTML</title>
     <style>
       h1 {
+        font-family: sans-serif;
         font-size: 65px;
       }
       h1 {
@@ -14,17 +15,36 @@
         background-color: blue;
       }
       .cor-de-fundo {
+        font-weight: 600;
+        font-style: italic;
         background-color: red;
+      }
+      #lol {
+        font-size: 16px;
+      }
+      .amarelo {
+        background-color: yellow;
+      }
+      .vermelho {
+        background-color: red;
+      }
+      .marrom {
+        background-color: brown;
+      }
+      .central {
+        text-decoration: underline;
+        line-height: 150%;
+        text-align: center;
       }
     </style>
   </head>
-  <body>
-    <h1>Exercícios 3.2</h1>
+  <body id="lol">
+    <h1 class="central">Exercícios 3.2</h1>
     <p class="cor-de-fundo">Qual é a sua cor favorita?</p>
     <ul class="cor-de-fundo">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li class="amarelo">Amarelo</li>
+      <li class="vermelho">Vermelho</li>
+      <li class="marrom">Marrom</li>
     </ul>
   </body>
 </html>
