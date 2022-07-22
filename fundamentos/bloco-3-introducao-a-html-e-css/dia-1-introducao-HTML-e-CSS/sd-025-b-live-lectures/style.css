@@ -1,0 +1,30 @@
+body {
+  font-family: Montserrat;
+}
+p,
+li {
+  color: whitesmoke;
+}
+h1,
+h3 {
+  color: green;
+}
+.trybe-green {
+  color: green;
+}
+#ceo {
+  background-color: orange;
+}
+.picture {
+  border-radius: 50%;
+}
+.button {
+  text-decoration: none;
+  background-color: rgb(7, 104, 7);
+  color: white;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
