@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.one {
+  color: rgb(1, 36, 1);
+}
+.two {
+  color: rgb(43, 41, 41);
+}
+h3 {
+  color: green;
+}
+.trybe-green {
+  color: green;
+}
+#ceo {
+  background-color: orange;
+}
+.picture {
+  border-radius: 50%;
+}
+.button {
+  text-decoration: none;
+  background-color: rgb(7, 104, 7);
+  color: white;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
+#header {
+  background-image: url(Imagens/iStock-614853958.jpg);
+  background-size: cover;
+  background-position: 50% 25%;
+}
+#header-content {
+  width: 60%;
+  padding: 70px 0px 80px 70px;
+}
+#market {
+  text-align: center;
+  padding-top: 60px;
+}
+.section-title {
+  padding-bottom: 60px;
+}
+#market p {
+  width: 80%;
+  margin: auto;
+}
+#testimonials {
+  
+  padding-top: 70px;
+  padding-bottom: 60px;
+
+}
+.student-testimonial {  
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+
+}
+.student-testimonial p {
+  margin-top: 20px;
+} 
+#testimonial-wrapper {
+  width: 80%;
+  margin: auto;
+}
+#learning-left {
+  float: left;
+
+}
+#learning-right{ 
+  float: right;
+
+}
+#footer {
+  clear: both;
+}
