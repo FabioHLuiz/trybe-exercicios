@@ -1,9 +1,9 @@
-* {margin: 0;
+* {
+  margin: 0;
   padding: 0;
-
 }
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .one {
@@ -38,11 +38,10 @@ h3 {
   background-image: url(Imagens/iStock-614853958.jpg);
   background-size: cover;
   background-position: 50% 25%;
-  
 }
 #header-content {
   width: 60%;
-  padding: 70px 0px 80px 70px
+  padding: 70px 0px 80px 70px;
 }
 #market {
   text-align: center;
@@ -52,6 +51,26 @@ h3 {
   padding-bottom: 60px;
 }
 #market p {
+  width: 80%;
+  margin: auto;
+}
+#testimonials {
+  
+  padding-top: 70px;
+  padding-bottom: 60px;
+
+}
+.student-testimonial {  
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+
+}
+.student-testimonial p {
+  margin-top: 20px;
+} 
+#testimonial-wrapper {
   width: 80%;
   margin: auto;
 }
