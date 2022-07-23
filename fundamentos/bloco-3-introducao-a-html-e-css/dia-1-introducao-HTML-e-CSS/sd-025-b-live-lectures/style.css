@@ -1,11 +1,17 @@
+* {margin: 0;
+  padding: 0;
+
+}
 body {
   font-family: 'Courier New', Courier, monospace;
 }
-p,
-li {
-  color: whitesmoke;
+
+.one {
+  color: rgb(1, 36, 1);
 }
-h1,
+.two {
+  color: rgb(43, 41, 41);
+}
 h3 {
   color: green;
 }
@@ -29,12 +35,23 @@ h3 {
   border-radius: 8px;
 }
 #header {
-  background-image: url(Imagens/homem-sorrindo-de-frente-para-notebook_1_53670.webp);
+  background-image: url(Imagens/iStock-614853958.jpg);
   background-size: cover;
   background-position: 50% 25%;
   
 }
 #header-content {
   width: 60%;
-  padding: 50px 0px 60px 50px;
+  padding: 70px 0px 80px 70px
+}
+#market {
+  text-align: center;
+  padding-top: 60px;
+}
+.section-title {
+  padding-bottom: 60px;
+}
+#market p {
+  width: 80%;
+  margin: auto;
 }
