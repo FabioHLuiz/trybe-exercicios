@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+.first {
+  margin-left: 820px;
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  display: block;
+}
+
+.second {
+  margin-left: 620px;
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+}
+
+.third {
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+}
+.central {
+  display: inline;
+  text-align: center;
+}
