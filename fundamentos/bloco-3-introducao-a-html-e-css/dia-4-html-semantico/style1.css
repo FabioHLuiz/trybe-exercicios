@@ -1,0 +1,45 @@
+body {
+  background-color: green;
+}
+
+.header {
+  
+  background-color: red;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.navlinks li { 
+  margin-top: 20px;
+  color: white;
+  display: inline-block;
+  margin-right: 100px;
+  height: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#nav { 
+  
+  background-color: black;
+}
+h2 {
+  background-color: red;
+  text-align: center;
+}
+.img {
+  width: 39%;
+} 
+h3 {
+  font-size: 30px;
+}
+.text1 {
+  font-size: 20px;
+}
+.text2 {
+  font-size: 21px;
+}.text3 {
+  font-size: 20px;
+}
+table {
+  font-size: 20px;
+}
