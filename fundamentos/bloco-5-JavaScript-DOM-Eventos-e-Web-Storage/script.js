@@ -1,13 +1,15 @@
-document.getElementById("page-title").innerText = "Interestelar";
+document.getElementById("header-container").style.backgroundColor = "#06b16b"
 
-document.getElementById("second-paragraph").innerText = "Melhor filme de Ficção!";
+document.querySelectorAll("h3")[0].style.backgroundColor = "#a207eb"
 
+document.querySelectorAll("h3")[1].style.backgroundColor = "#a207eb"
 
+document.querySelectorAll("h3")[2].style.backgroundColor = "#232524"
 
-document.getElementsByClassName("para")[0].style.fontSize = "50px";
+document.querySelectorAll("h3")[3].style.backgroundColor = "#232524"
 
-document.getElementsByClassName("para")[1].style.fontSize = "100px";
+document.getElementById("footer-container").style.backgroundColor = "#013533"
 
-document.getElementsByTagName("h4")[0].innerText = "No UCI Cinemas";
-  
-document.getElementsByTagName("h4")[0].style.color = "red";
+document.querySelector(".no-emergency-tasks").style.backgroundColor = "#f9dc5e"
+
+document.querySelector(".emergency-tasks").style.backgroundColor = "#ffa084"
