@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX - SHRINK</title>
+    <style>
+
+
+/* flex-shrink = valor padrão é 1, ele faz o trabalho contrario do flex-grow, logo ele encurta se diminui em relação aos outros elementos. */
+/* Alterando o valor incial você consegue diminuir o tamanho do box em que ele está. */
+
+      .container {
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 100%;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-basis: 500px;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+
+      .one {
+        background-color: #FBD26A;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 5;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #FAA488;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 8;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069EF;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 50;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        display: flex;
+        /* Altere a propriedade shrink. */
+        flex-shrink: 20;
+        list-style: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul class="container">
+      <li class="box one">1</li>
+      <li class="box two">2</li>
+      <li class="box three">3</li>
+      <li class="box four">4</li>
+    </ul>
+  </body>
+</html>
