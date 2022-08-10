@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+h1 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+/* pseudoSeletor :hover= aplica um estilo ao elemento h3 ou outro quando o evento de passar o mouse em cima ocorrer  */
+
+h3:hover {
+  color: rgb(45, 207, 45);
+}
+.cabeçalho {
+  align-items: center;
+  background: black;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.subtitle {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+p {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 90%;
+}
+.bloco {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto 13px auto;
+  width: 50%;
+}
+.quebra {
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgb(161, 161, 161, 0.5);
+  flex-direction: column;
+  height: 220px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+}
+
+.rodape {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  
+  margin-left: 45%;
+  margin-right: 45%;
+  width: 10%;
+}
