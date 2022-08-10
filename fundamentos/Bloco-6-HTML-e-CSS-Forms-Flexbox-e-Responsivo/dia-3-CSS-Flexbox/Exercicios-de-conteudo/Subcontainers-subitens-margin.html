@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <!-- flex-container = essa div engloba todos os meus elementos, ela ainda tem outro container div com a classe chamada box com o numero 1 e ainda tenho mais 3 divs com a mesma classe.
+
+    Dentro da div de classe box de numero 2 temos  um outro container(sub-container) ou seja um container dentro de outro container e dentro desse sub-container tenho mais 4 divs que receberam a classe box com a sub-box com valores de 1, 2, 3, 4. -->
+
+    <div class="flex-container"> 
+      <div class="box">1</div>
+      <div class="box">2
+        <div class="flex-container sub-container">
+          <div class="box sub-box">1</div>
+          <div class="box sub-box">2</div>
+          <div class="box sub-box">3</div>
+          <div class="box sub-box">4</div>
+        </div>
+      </div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+    </div>
+  </body>
+</html>
