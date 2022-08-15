@@ -131,13 +131,13 @@
 //   console.log("F");
 // }
 
-const num1 = 11;
-const num2 = 17;
-const num3 = 21;
+// const num1 = 11;
+// const num2 = 17;
+// const num3 = 21;
 
-let par = false;
+// let par = false;
 
-if ((num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0 )){
-  par = true;
-};
-console.log(par);
+// if ((num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0 )){
+//   par = true;
+// };
+// console.log(par);
