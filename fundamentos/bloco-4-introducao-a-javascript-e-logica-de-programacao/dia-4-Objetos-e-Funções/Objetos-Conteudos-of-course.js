@@ -153,3 +153,48 @@ console.log(ultimoMorador.nome); // Zoey
 // nome-completo;
 // cidade-natal;
 // titulo-original.
+
+
+
+
+// ROLE PARA BAIXO.
+
+
+
+
+
+
+
+
+
+
+
+
+// Entradas de um objeto: chave: valor ( ou então, chamamos a chave de propriedade)
+
+let person = {
+  names: `Marcelo`,
+  birthdate: `29/10/1970`,
+  eyeColor: `Verdes`,
+  height: `1.79`,
+  local: {city: `Salvador`, state: `Bahia`},
+}
+
+
+// Acessando / alterando propriedades de um objeto
+
+console.log(person);
+console.table(person);
+console.log(person.names);
+console.log(person.local.city);
+
+// a. Notação por ponto: Alterando valor com o objeto.propriedade
+
+person.bloodType = `O+`;
+console.log(person);
+
+// b. Notação por colchetes: Alterando valor com o obejto [`propriedades`]
+
+person[`sport`] = `Natação`;
+person[`eyeColor`] = `Azuis`;
+console.log(person);
