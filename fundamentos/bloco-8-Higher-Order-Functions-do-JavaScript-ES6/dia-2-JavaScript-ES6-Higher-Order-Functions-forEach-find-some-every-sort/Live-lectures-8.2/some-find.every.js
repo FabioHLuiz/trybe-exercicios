@@ -63,3 +63,23 @@ console.log(todoMundoDirige);
 let resposta = todoMundoDirige ? 'Sim!' : 'Não!';
 
 console.log(`Todo mundo dirige? ${resposta}`);
+
+///////////////////////////////////////////////////////////////////////
+
+const users = [
+  { firstName: 'Homer', lastName: 'Simpson', isDriver: true },
+  { firstName: 'Marge', lastName: 'Simpson', isDriver: true },
+  { firstName: 'Bart', lastName: 'Simpson', isDriver: false },
+  { firstName: 'Lisa', lastName: 'Simpson', isDriver: false },
+  { firstName: 'Maggie', lastName: 'Simpson', isDriver: false }
+]
+
+const some = users.some((element) => element.isDriver === true);
+const every = users.every((element) => element.isDriver === false);
+const find = users.find((element) => element.isDriver === false);
+
+console.log(some); //true = some retorna um valor boleano caso um dos valores passados atinja as condições necessária
+
+console.log(every);//false = every retorná um valor boleano, porém todos as condições tem que serem  atingidas, nesse caso todas as resposta teria que ser false para ele retornar true.
+
+console.log(find);//valor = find retorna o valor do primeiro elemento do array que sastifaça as condições .
