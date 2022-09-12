@@ -1,0 +1,48 @@
+<!-- O que é JSON e por que o usamos?
+
+JSON significa JavaScript Object Notation e é basicamente uma forma de representarmos dados como objetos Javascript:
+
+{
+  "trybers": [
+    {
+      "name": "Lauro Cesar",
+      "github": "lauroandrade",
+      "status": "#vqv"
+    }
+  ]
+} -->
+<!-- Perceba o quão legível é o formato JSON, já que nossos dados ficam guardados como pares de key/value. A key (chave) fica no lado esquerdo e o value (valor) no lado direito. No array trybers, podem ser adicionados vários outros objetos. -->
+
+<!-- Apesar do nome, ele não é um objeto JavaScript, apenas é estruturado de forma que faz uso de chaves e valores. Então, por não ser um objeto nativo do JavaScript, precisamos traduzir ele para que fique a par da linguagem que estamos usando. Para isso existe a função JSON.parse(), assim como existe a função JSON.stringify() que transforma uma estrutura JavaScript em string.
+Vamos ver um breve exemplo a respeito disso. Para simplificar, no arquivo script.js, vamos forçar por meio das crases para que nosso JSON inicie-se como do tipo string.
+Crie um arquivo index.html e adicione o seguinte código: -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Importância do JSON</h1>
+  </header>
+  <main>
+    <article>
+      <h2>O JSON é utilizado por empresas como:</h2>
+      <ul id="corporations-used-by"></ul>
+    </article>
+    <article>
+      <h2>As vantagens de se usar JSON são:</h2>
+      <ul id="advantages"></ul>
+    </article>
+    <article>
+      <h2>Esse formato também pode ser lido pelas seguintes linguagens:</h2>
+      <ul id="languages-used-by"></ul>
+    </article>
+  </main>
+  <script type="module" src="JSON.js"></script>
+</body>
+</html>
+
