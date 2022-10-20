@@ -7,3 +7,5 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+// Note que ele está fazendo uma verificação se algum elemento dentro do componente App possui o texto “learn react” (/string/i é utilizado para ignorar case sensitive, ou seja, não diferenciar letras maiúsculas e minúsculas).
