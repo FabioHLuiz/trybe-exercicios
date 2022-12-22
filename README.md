@@ -74,74 +74,74 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 1: _JavaScript ES6 -introdução a Higher Order Functions_
 - [x] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [] 4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [] 6: _[Projeto - Zoo functions]()_
-​
-#### Bloco 9: JavaScript e Testes Assíncronos
-​
-- [] 1: _JavaScript Assíncrono e Callbacks_
-- [] 2: _JavaScript Assíncrono - Fetch API e async/await_
-- [] 3: _Jest - Testes Assíncronos_
-- [] 4: _[Projeto - Carrinho de Compras]()_
+- [x] 4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 6: _[Projeto - Zoo functions]()_
 ​
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 ​
+#### Bloco 9: JavaScript e Testes Assíncronos
+​
+- [x] 1: _JavaScript Assíncrono e Callbacks_
+- [x] 2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 3: _Jest - Testes Assíncronos_
+- [x] 4: _[Projeto - Carrinho de Compras]()_
+​
 #### Bloco 10: Introdução à React
 ​
-- [] 1: _Introdução - Front-end_
-- [] 1: _Introdução - React_
-- [] 1: _'Hello, world!' no React!_
-- [] 2: _Componentes React_
-- [] 3: _[Projeto - Sistema Solar]()_
+- [x] 1: _Introdução - Front-end_
+- [x] 1: _Introdução - React_
+- [x] 1: _'Hello, world!' no React!_
+- [x] 2: _Componentes React_
+- [x] 3: _[Projeto - Sistema Solar]()_
 ​
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 ​
-- [] 1: _Components com estado e eventos_
-- [] 2: _Formulários no React_
-- [] 3: _[Projeto - Tryunfo]()_
+- [x] 1: _Components com estado e eventos_
+- [x] 2: _Formulários no React_
+- [x] 3: _[Projeto - Tryunfo]()_
 ​
 #### Bloco 12: Ciclo de Vida de Componentes e React Router
 ​
-- [] 1: _Ciclo de vida de componentes_
-- [] 2: _React Router_
-- [] 3: _[Projeto - TrybeTunes]()_
+- [x] 1: _Ciclo de vida de componentes_
+- [x] 2: _React Router_
+- [x] 3: _[Projeto - TrybeTunes]()_
 ​
 #### Bloco 13: Metodologias Ágeis
 ​
-- [ ] 1: _Metodologias Ágeis_
-- [ ] 2: _[Projeto - Frontend Online Store]()_
+- [x] 1: _Metodologias Ágeis_
+- [x] 2: _[Projeto - Frontend Online Store]()_
 ​
 #### Bloco 14: Testes automatizados com React Testing Library
 ​
-- [ ] 1: _RTL - Primeiros passos_
-- [ ] 2: _RTL - Mocks e Inputs_
-- [ ] 3: _RTL - Testando React Router_
-- [ ] 4: _[Projeto - Testes em React]()_
+- [x] 1: _RTL - Primeiros passos_
+- [x] 2: _RTL - Mocks e Inputs_
+- [x] 3: _RTL - Testando React Router_
+- [x] 4: _[Projeto - Testes em React]()_
 ​
 #### Bloco 15: Gerenciamento de estado com Redux
 ​
-- [ ] 1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 2: _Usando o Redux no React_
-- [ ] 3: _Usando o Redux no React - Prática_
-- [ ] 4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 5: _Testes em React-Redux_
-- [ ] 6: _[Projeto - Trybe Wallet]()_
+- [x] 1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 2: _Usando o Redux no React_
+- [x] 3: _Usando o Redux no React - Prática_
+- [x] 4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 5: _Testes em React-Redux_
+- [x] 6: _[Projeto - Trybe Wallet]()_
 ​
 #### Bloco 16: Projeto Jogo de Trivia
 ​
-- [ ] 1: _[Projeto - Jogo de Trivia]()_
+- [x] 1: _[Projeto - Jogo de Trivia]()_
 ​
 #### Bloco 17: React & Context API
 ​
-- [ ] 1: _Context API do React_
-- [ ] 2: _React Hooks - useState e useContext_
-- [ ] 3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 1: _Context API do React_
+- [x] 2: _React Hooks - useState e useContext_
+- [x] 3: _React Hooks - useEffect e Hooks customizados_
+- [x] 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 ​
 #### Bloco 18: Projeto App de Receitas
 ​
-- [ ] 1: _[Projeto - App de Receitas]()_
+- [x] 1: _[Projeto - App de Receitas]()_
 ​
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 ​
