@@ -1,0 +1,33 @@
+# Comando = "docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql"
+
+# O que estamos fazendo aqui?
+# –name: Através desta flag, estamos nomeando o nosso container e facilitando a identificação do mesmo;
+
+# -e: Utilizada para informar nossas variáveis de ambiente. No nosso exemplo, como iremos acessar o container como usuário root, passaremos a seguinte variável de ambiente e senha MYSQL_ROOT_PASSWORD=senha-mysql;
+
+# -d: Utilizada para fazer com que o nosso container rode em segundo plano;
+
+# -p: Indicaremos qual porta no nosso sistema operacional o docker estará em funcionamento. Perceba que passamos 3306:3306. A porta 3306 (lado esquerdo) significa que a porta 3306 do nosso computador receberá o container docker. A porta 3306 (lado direito) significa que a porta que teremos acesso dentro do container. Lembrando que 3306 é a porta padrão do MySQL. 
+
+# Também iremos utilizar o comando run, responsável por criar e iniciar o container, que é o mysql. Neste comando, como não informamos a versão, o docker irá utilizar a imagem mais recente (latest) disponível no Docker Hub. Mas se quisermos uma versão específica podemos executar esse mesmo comando assim:
+
+
+# Comando "docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7"
+# Perceba que apenas foi adicionada a versão específica no final. Nesse caso, estaríamos rodando o MySQL na versão 5.7.
+
+# Parando seu container
+# Se você quiser parar o container que acabamos de subir, você pode usar o comando:
+
+# Comando "docker container stop container-mysql"
+# Iniciando seu container
+# Se você quiser iniciar o container, já criado, você pode usar o comando:
+
+# Comando "docker container start container-mysql"
+
+# ## Deletando seu container
+# Se agora você não quer mais usar esse container e quer removê-lo, pare o container e execute o comando abaixo:
+# ## quando o container estiver parado
+
+# Comando "docker container rm container-mysql"
+
+# Se você parou, ou deletou um container errado, não se preocupe. Você pode executá-lo novamente, com os comandos citados anteriormente.
