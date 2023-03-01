@@ -1,0 +1,14 @@
+version: "3.1"
+
+services:
+  # Serviço que irá rodar o node
+  mysql:
+    # Imagem base do container
+    image: mysql:5.7
+    # Nome do container para facilitar execução
+    container_name: container_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    ports:
+      # Expõe a porta padrão da aplicação: altere aqui caso use outra porta
+      - 3006:3006
