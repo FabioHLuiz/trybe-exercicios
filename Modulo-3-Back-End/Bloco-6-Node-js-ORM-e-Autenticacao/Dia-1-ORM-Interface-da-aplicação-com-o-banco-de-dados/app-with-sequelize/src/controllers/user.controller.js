@@ -1,8 +1,8 @@
 // src/controllers/user.controller.js
 
-const UserService = require("../services/user.service");
+const UserService = require('../services/user.service');
 
-const error500Message = "Algo deu errado";
+const error500Message = 'Algo deu errado';
 
 const getAll = async (_req, res) => {
   try {
@@ -10,7 +10,7 @@ const getAll = async (_req, res) => {
     return res.status(200).json(users);
   } catch (e) {
     console.log(e.message);
-    res.status(500).json({ message: "Ocorreu um erro" });
+    res.status(500).json({ message: 'Ocorreu um erro' });
   }
 };
 
@@ -19,8 +19,7 @@ const getById = async (req, res) => {
     const { id } = req.params;
     const user = await UserService.getById(id);
 
-    if (!user)
-      return res.status(404).json({ message: "Usuário não encontrado" });
+    if (!user) return res.status(404).json({ message: 'Usuário não encontrado' });
 
     return res.status(200).json(user);
   } catch (e) {
@@ -35,8 +34,7 @@ const getByIdAndEmail = async (req, res) => {
     const { email } = req.query;
     const user = await UserService.getByIdAndEmail(id, email);
 
-    if (!user)
-      return res.status(404).json({ message: "Usuário não encontrado" });
+    if (!user) return res.status(404).json({ message: 'Usuário não encontrado' });
 
     return res.status(200).json(user);
   } catch (e) {
@@ -63,10 +61,9 @@ const updateUser = async (req, res) => {
     const { id } = req.params;
     const updatedUser = await UserService.updateUser(id, fullName, email);
 
-    if (!updatedUser)
-      return res.status(404).json({ message: "Usuário não encontrado" });
+    if (!updatedUser) return res.status(404).json({ message: 'Usuário não encontrado' });
 
-    return res.status(200).json({ message: "Usuário atualizado com sucesso!" });
+    return res.status(200).json({ message: 'Usuário atualizado com sucesso!' });
   } catch (e) {
     console.log(e.message);
     res.status(500).json({ message: error500Message });
@@ -78,7 +75,7 @@ const deleteUser = async (req, res) => {
     const { id } = req.params;
     await UserService.deleteUser(id);
 
-    return res.status(200).json({ message: "Usuário excluído com sucesso!" });
+    return res.status(200).json({ message: 'Usuário excluído com sucesso!' });
   } catch (e) {
     console.log(e.message);
     res.status(500).json({ message: error500Message });
