@@ -33,6 +33,7 @@ const getById = async (req, res) => {
     res.status(500).json({ message: 'Ocorreu um erro' });
   };
 }
+
 module.exports = {
   getAll,
   getById,

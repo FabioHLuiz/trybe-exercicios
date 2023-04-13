@@ -31,7 +31,7 @@ module.exports = {
         // Informa que o campo é uma Foreign Key (Chave estrangeira)
         references: {
           // Informa a tabela da referência da associação
-          model: 'employee',
+          model: 'employees',
           // Informa a coluna da referência que é a chave correspondente
           key: 'id',
         },
