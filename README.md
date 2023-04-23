@@ -147,68 +147,68 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 ​
 #### BBloco 19: Docker: Utilizando Containers
 ​
-- [ ] 1: _Introdução - Back-end_
-- [ ] 1: _Utilizando Containers - Docker_
-- [ ] 2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 3: _Orquestrando Containers com Docker Compose_
-- [ ] 4: _[Projeto - Docker Todo-list]()_
+- [x] 1: _Introdução - Back-end_
+- [x] 1: _Utilizando Containers - Docker_
+- [x] 2: _Manipulação e Criação de Imagens no Docker_
+- [x] 3: _Orquestrando Containers com Docker Compose_
+- [x] 4: _[Projeto - Docker Todo-list]()_
 ​
 #### Bloco 20: Introdução à SQL
 ​
-- [ ] 1: _Introdução - Bancos de dados relacionais_
-- [ ] 1: _Banco de dados SQL_
-- [ ] 2: _Encontrando dados em um banco de dados_
-- [ ] 3: _Filtrando dados de forma específica_
-- [ ] 4: _Manipulando tabelas
-- [ ] 5: _[Projeto - All For One]()_
+- [x] 1: _Introdução - Bancos de dados relacionais_
+- [x] 1: _Banco de dados SQL_
+- [x] 2: _Encontrando dados em um banco de dados_
+- [x] 3: _Filtrando dados de forma específica_
+- [x] 4: _Manipulando tabelas
+- [x] 5: _[Projeto - All For One]()_
 ​
 #### Bloco 21: Funções SQL, JOINs e Normalização
 ​
-- [ ] 1: _Funções mais usadas no SQL_
-- [ ] 2: _Descomplicando JOINs_
-- [ ] 3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 4: _[Projeto - One For All]()_
+- [x] 1: _Funções mais usadas no SQL_
+- [x] 2: _Descomplicando JOINs_
+- [x] 3: _Transformando ideias em um modelo de banco de dados_
+- [x] 4: _[Projeto - One For All]()_
 ​
 #### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 ​
-- [ ] 1: _Intro - Node.js_
-- [ ] 1: _Node.js - Um motor JavaScript_
-- [ ] 2: _Node.js - Fluxo assíncrono_
-- [ ] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
-- [ ] 4: _Express - HTTP com Node.js_
-- [ ] 5: _Express - Middlewares_
-- [ ] 6: _[Projeto - Talker Manager]()_
+- [x] 1: _Intro - Node.js_
+- [x] 1: _Node.js - Um motor JavaScript_
+- [x] 2: _Node.js - Fluxo assíncrono_
+- [x] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
+- [x] 4: _Express - HTTP com Node.js_
+- [x] 5: _Express - Middlewares_
+- [x] 6: _[Projeto - Talker Manager]()_
 ​
 #### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 ​
-- [ ] 1: _Introdução - Arquitetura de Software_
-- [ ] 1: _Arquitetura de Software - Camada de Model_
-- [ ] 2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 3: _Arquitetura Web - Rest e Restful_
-- [ ] 4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 5: _[Projeto - Store Manager]()_
+- [x] 1: _Introdução - Arquitetura de Software_
+- [x] 1: _Arquitetura de Software - Camada de Model_
+- [x] 2: _Arquitetura de Software - Camada de Controller e Service_
+- [x] 3: _Arquitetura Web - Rest e Restful_
+- [x] 4: _Arquitetura de Software - Testando as Camadas_
+- [x] 5: _[Projeto - Store Manager]()_
 ​
 #### Bloco 24: Node.js: ORM e Autenticação
 ​
-- [ ] 1: _Introdução - Node.js: ORM e Autenticação_
-- [ ] 1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 2: _ORM - Associations_
-- [ ] 3: _JWR - JSON Web Token_
-- [ ] 4: _[Projeto - API de Blogs]()_
+- [x] 1: _Introdução - Node.js: ORM e Autenticação_
+- [x] 1: _ORM - Interface da aplicação com o banco de dados_
+- [x] 2: _ORM - Associations_
+- [x] 3: _JWR - JSON Web Token_
+- [x] 4: _[Projeto - API de Blogs]()_
 ​
 #### Bloco 25: Deployment
 ​
-- [ ] 1: _Introdução - Deploy_
-- [ ] 1: _Infraestrutura - Deploy com Heroku_
-- [ ] 2: _Deploy Docker & Heroku_
-- [ ] 3: _[Projeto - Stranger Things]()_
+- [x] 1: _Introdução - Deploy_
+- [x] 1: _Infraestrutura - Deploy com Heroku_
+- [x] 2: _Deploy Docker & Heroku_
+- [x] 3: _[Projeto - Stranger Things]()_
 ​
 #### Bloco 26: TypeScript
 ​
-- [ ] 1: _Introdução - TypeScript_
-- [ ] 1: _Introdução ao TypeScript_
-- [ ] 2: _Tipagem Estática e Generics_
-- [ ] 3: _Express com TypeScript_
+- [x] 1: _Introdução - TypeScript_
+- [x] 1: _Introdução ao TypeScript_
+- [x] 2: _Tipagem Estática e Generics_
+- [x] 3: _Express com TypeScript_
 - [ ] 4: _[Projeto Trybe Smith]()_
 ​
 #### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
